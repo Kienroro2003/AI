@@ -4,13 +4,15 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+def swap(arr, a, b):
+    temp = arr[a]
+    arr[a] = arr[b]
+    arr[b] = temp
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    data4 = [1, 2, 3]
+    print(data4)
+    swap(data4, 0, 2)
+    print(data4)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
